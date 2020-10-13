@@ -1,0 +1,39 @@
+[
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/1/ept.json",
+      "bounds": "([650000, 700000], [1100000, 1150000])"
+    },
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/2/ept.json",
+      "bounds": "([650000, 700000], [1100000, 1150000])"
+    },
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/3/ept.json",
+      "bounds": "([650000, 700000], [1100000, 1150000])"
+    },
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/4/ept.json",
+      "bounds": "([650000, 700000], [1100000, 1150000])"
+    },
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/5/ept.json",
+      "bounds": "([650000, 700000], [1100000, 1150000])"
+    },
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/6/ept.json",
+      "bounds": "([650000, 700000], [1100000, 1150000])"
+    },
+    {
+        "filename":"./tiff_merged_all_output.tiff",
+        "gdaldriver":"GTiff",
+        "output_type":"all",
+        "resolution":"50.0",
+        "type": "writers.gdal"
+    }
+]

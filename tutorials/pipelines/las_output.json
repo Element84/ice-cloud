@@ -1,0 +1,11 @@
+[
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/1/ept.json",
+      "bounds": "([655000, 1125000], [820000, 1760000])"
+    },
+    {
+      "type": "writers.las",
+      "filename": "./output.las"
+    }
+]

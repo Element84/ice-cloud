@@ -1,0 +1,7 @@
+## Copy this file into download_settings.py and add correct settings.
+
+SPATIAL_EXTENT = [156,-81,162,-69]
+DATE_RANGE = ['2020-04-01', '2020-05-21']
+EARTHDATA_UID = ''
+EARTHDATA_EMAIL = ''
+STAGES = 1 # Specifies the number of subsets to use for the Entwine build, must be a power of 4

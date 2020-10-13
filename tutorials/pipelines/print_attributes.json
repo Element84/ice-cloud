@@ -1,0 +1,18 @@
+{
+    "pipeline": [
+        {
+          "type": "readers.ept",
+          "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/1/ept.json",
+          "bounds": "([650000, 700000], [1100000, 1150000])"
+        },
+        {
+            "type": "filters.python",
+            "function": "print_attributes",
+            "module": "anything",
+            "script": "./pipelines/python/print_attributes.py"
+        },
+        {
+            "type": "writers.null"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+      "type": "readers.ept",
+      "filename": "http://s3-us-west-2.amazonaws.com/access-icesat2-entwine/1/ept.json",
+      "bounds": "([650000, 700000], [1100000, 1150000])"
+    },
+    {
+      "type":"filters.range",
+      "limits":"ReturnNumber[0:1]"
+    },
+    {
+        "filename":"./tiff_filtered_output.tiff",
+        "gdaldriver":"GTiff",
+        "output_type":"all",
+        "resolution":"50.0",
+        "type": "writers.gdal"
+    }
+]
